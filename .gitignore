@@ -1,0 +1,30 @@
+# Local notebook/editor caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.venv/
+venv/
+.env
+.env.*
+
+# Supplied event data and helper resources remain outside this portfolio
+data/
+data-v*/
+*.csv
+*.tsv
+*.parquet
+*.root
+ucl_masterclass*.py
+
+# Model artifacts and experiment checkpoints are not portfolio content
+neural_nets/
+checkpoints/
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.keras
+*.ckpt*
+*.weights*
